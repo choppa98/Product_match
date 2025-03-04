@@ -1,1 +1,5 @@
-
+Please use the data product_match.csv to load the dataframe that contains the columns: image, title, query, item_id, position. We mainly utilise the columns title, item_ID and the image to create our image embeddings and text embeddings. The goal of this system is to find and display the most similar products based on an input image. It utilizes:
+1)FAISS for efficient nearest neighbor search.
+2)MongoDB for storing product metadata and images.
+3)CLIP & SentenceTransformers for image & text embeddings.
+4) Matplotlib & PIL for displaying matched images using nearest neighbours.
